@@ -53,7 +53,7 @@ public:
 		return temp_node;
 	}
 	
-	T* orderEnqueue(Event *event) {
+	T* orderEnqueue(Event event) {
 		Event *temp = new Event;
     		if (!temp) {
         	exit(-1);
